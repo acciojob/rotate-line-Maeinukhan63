@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <style>
+        /* Style for the rotating line */
+        #line {
+            width: 200px;
+            height: 2px;
+            background-color: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform-origin: center center;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div id="line"></div>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
